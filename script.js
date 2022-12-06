@@ -16,8 +16,8 @@ let priceMessage = 'Il totale del biglietto è: ';
 // 2 Chiedere il numero di di chilometri da percorrere
 // 3 Chiedere l'età del passegero
 
-const kms = parseInt(prompt('Quanti chilometri devi percorrere?', 50).trim();)
-const age = parseInt(prompt ('Quanti anni hai?', 32).trim();)
+const kms = parseInt(prompt('Quanti chilometri devi percorrere?', 50).trim());
+const age = parseInt(prompt ('Quanti anni hai?', 32).trim());
 
 // 4 Prezzo base
 let price = kms * 0.21;
